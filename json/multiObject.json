@@ -1,0 +1,28 @@
+{
+  "name" : "Suraj",
+  "empid" : "TY001",
+  "email" : "suj6724@gmail.com",
+  "phone" : [ 789, 456, 123 ],
+  "PojoLibrary" : [ {
+    "name" : "SundaySurya",
+    "empID" : "TY002",
+    "email" : "sjn6724@gmail.com",
+    "phone" : 456123
+  }, {
+    "name" : "MondaySurya",
+    "empID" : "TY003",
+    "email" : "sjn6724@gmail.com",
+    "phone" : 789123
+  } ],
+  "pojoLibrary" : [ {
+    "name" : "SundaySurya",
+    "empID" : "TY002",
+    "email" : "sjn6724@gmail.com",
+    "phone" : 456123
+  }, {
+    "name" : "MondaySurya",
+    "empID" : "TY003",
+    "email" : "sjn6724@gmail.com",
+    "phone" : 789123
+  } ]
+}

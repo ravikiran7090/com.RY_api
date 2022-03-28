@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.TestYantra.RequestChaining.DeleteUser_EmployeeTest"/>
+      <class name="com.TestYantra.RequestChaining.CreateAndDeleteUserTest"/>
+      <class name="com.TestYantra.RequestChaining.Create_Project_and_Allocate_User_Test"/>
+      <class name="com.TestYantra.RequestChaining.RequestChainingGetAndDelete"/>
+      <class name="com.TestYantra.RequestChaining.RequestChainingPostAndDelete"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
