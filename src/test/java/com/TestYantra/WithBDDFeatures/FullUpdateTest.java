@@ -21,7 +21,7 @@ public class FullUpdateTest {
 			.body(obj)
 			.contentType(ContentType.JSON)
 		.when()
-			.put("http://localhost:8084/projects/TY_PROJ_1609")
+			.put("http://localhost:8084/projects/TY_PROJ_4610")
 		.then()
 			.assertThat().contentType(ContentType.JSON)
 		//assertThat().statusCode(200)

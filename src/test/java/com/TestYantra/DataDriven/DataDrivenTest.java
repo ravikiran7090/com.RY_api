@@ -28,7 +28,7 @@ public class DataDrivenTest {
 
 	@DataProvider
 	public Object[][] projectData() {
-		Object[][] obj = new Object[4][4];
+		Object[][] obj = new Object[3][4];
 
 		obj[0][0] = "Suraj";
 		obj[0][1] = "Suryaempire 1";
@@ -45,10 +45,7 @@ public class DataDrivenTest {
 		obj[2][2] = "on going";
 		obj[2][3] = "455";
 
-		obj[3][0] = "Suraj";
-		obj[3][1] = "Suryaempire 4";
-		obj[3][2] = "on going";
-		obj[3][3] = "455";
+		
 
 		return obj;
 	}

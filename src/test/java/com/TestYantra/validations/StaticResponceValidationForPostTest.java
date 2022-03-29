@@ -27,7 +27,10 @@ public class StaticResponceValidationForPostTest {
 		obj.put("status", "on going");
 		obj.put("teamSize", 25);
 
-		response = given().body(obj).contentType(ContentType.JSON).when().post("http://localhost:8084/addProject");
+		response = given()
+						.body(obj).contentType(ContentType.JSON)
+					.when()
+						.post("http://localhost:8084/addProject");
 		response.then().log().body();
 
 		Object projname = response.jsonPath().get("projectName");
