@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestYantra.practice.CreateAResourceTest">
+      <class name="com.TestYantra.Authentication.TokenAuthTest">
         <methods>
-          <include name="CreateResource"/>
+          <include name="tokenAuth"/>
         </methods>
-      </class> <!-- com.TestYantra.practice.CreateAResourceTest -->
+      </class> <!-- com.TestYantra.Authentication.TokenAuthTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
