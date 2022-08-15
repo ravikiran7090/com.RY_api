@@ -16,7 +16,10 @@ public class Oauth2_0Test {
 				.formParam("redirect_uri", "https://example.com")
 			.when()
 				.post("http://coop.apps.symfonycasts.com/token");
+			
 			response.then().log().body();
+			
+			
 			String token = response.jsonPath().get("access_token");
 			
 			given()

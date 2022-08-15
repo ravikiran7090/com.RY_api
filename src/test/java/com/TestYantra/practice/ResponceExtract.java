@@ -26,9 +26,9 @@ public class ResponceExtract {
 		System.out.println("***************************************");
 		//System.out.println(res.asString());
 		System.out.println("***************************************");
-		System.out.println(res.print());
+		//System.out.println(res.print());
 		System.out.println("***************************************");
-		System.out.println(res.prettyPrint());
+		//System.out.println(res.prettyPrint());
 		
 	}
 

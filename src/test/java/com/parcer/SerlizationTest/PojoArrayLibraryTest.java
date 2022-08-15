@@ -16,7 +16,7 @@ public class PojoArrayLibraryTest {
 	public void serlization() throws JsonGenerationException, JsonMappingException, IOException {
 
 		int[] a = { 987654321, 789456123, 456123987 };
-		PojoArrayLibrary pojo = new PojoArrayLibrary("Suraj", "TY002", "sjn6724@hmail.com", a);
+		PojoArrayLibrary pojo = new PojoArrayLibrary("Suraj", "TY002", "sjn6724@gmail.com", a);
 
 		ObjectMapper mapper = new ObjectMapper();
 		

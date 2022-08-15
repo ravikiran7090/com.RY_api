@@ -48,9 +48,11 @@ public class DataVerifiedInDataBaseTest {
 
 			while (result.next()) {
 
-				System.out.println(result.getString(1) + "\t" + result.getString(2) + "\t" + result.getString(3) + "\t"
-						+ result.getString(4) + "\t" + result.getString(5) + "\t" + result.getString(6));
-
+				/*
+				 * System.out.println(result.getString(1) + "\t" + result.getString(2) + "\t" +
+				 * result.getString(3) + "\t" + result.getString(4) + "\t" + result.getString(5)
+				 * + "\t" + result.getString(6));
+				 */
 				if (result.getString(1).equals(projectid)) {
 					Assert.assertEquals(result.getString(1), projectid);
 					Assert.assertEquals(result.getString(2).equals(createdby), true);

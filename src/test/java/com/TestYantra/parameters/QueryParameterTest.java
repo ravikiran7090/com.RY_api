@@ -7,6 +7,11 @@ import static io.restassured.RestAssured.*;
 public class QueryParameterTest {
 	@Test
 	public void quertParam() {
-		given().queryParam("page", "3").when().get("https://reqres.in/api.users").then().log().all();
+		given()
+			.queryParam("page", "2")
+		.when()
+			.get("https://reqres.in/api.users")
+		.then()
+			.log().all();
 	}
 }

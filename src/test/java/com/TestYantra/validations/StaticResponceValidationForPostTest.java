@@ -32,7 +32,6 @@ public class StaticResponceValidationForPostTest {
 					.when()
 						.post("http://localhost:8084/addProject");
 		response.then().log().body();
-
 		Object projname = response.jsonPath().get("projectName");
 		System.out.println(projname);
 		Object projid = response.jsonPath().get("projectId");

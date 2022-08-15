@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestYantra.Authentication.TokenAuthTest">
+      <class name="com.TestYantra.RequestChaining.DeleteUser_EmployeeTest">
         <methods>
-          <include name="tokenAuth"/>
+          <include name="deleteEmployee"/>
         </methods>
-      </class> <!-- com.TestYantra.Authentication.TokenAuthTest -->
+      </class> <!-- com.TestYantra.RequestChaining.DeleteUser_EmployeeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

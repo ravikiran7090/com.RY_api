@@ -7,11 +7,11 @@ import org.testng.annotations.Test;
 public class DeleteUser_EmployeeTest {
 	@Test
 	public void deleteEmployee() {
-		//String empid = "TYP_00837";
+		String empid = "TYP_01003";
 		given()
-		//.pathParam("empID", empid)
+		.pathParam("empID", empid)
 		.when()
-		.delete("http://localhost:8084/employees/TYP_00837")
+		.delete("http://localhost:8084/employees/{empID}")
 		.then()
 		.assertThat()
 		.statusCode(204)
